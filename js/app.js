@@ -18,4 +18,9 @@ angular.module('portfolio', ['ui.router', 'ui.materialize'])
         url: '/work',
         templateUrl: './views/work.html'
       })
+      
+      .state('contact', {
+        url: '/contact',
+        templateUrl: './views/contact.html'
+      })
 });
