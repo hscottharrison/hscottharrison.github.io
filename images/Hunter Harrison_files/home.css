@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+main{
+  background: url('../images/home.jpg') center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+nav{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.intro-wrapper{
+  height: calc(100vh - 65px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  color: #fff;
+  background: rgba(119, 136, 153, .9);
+  width: 50%;
+  min-height: 200px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+.smaller-text{
+  font-size: 14px;
+}
+.dropdown-content{
+  max-width: 60px;
+}
