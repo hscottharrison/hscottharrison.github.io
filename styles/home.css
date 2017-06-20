@@ -31,6 +31,9 @@ nav{
   border: 2px solid #fff;
   border-radius: 4px;
 }
+.home-text{
+  display: none
+}
 .smaller-text{
   font-size: 14px;
 }

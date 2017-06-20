@@ -1,4 +1,4 @@
-angular.module('portfolio', ['ui.router', 'ui.materialize'])
+angular.module('portfolio', ['ui.router', 'ui.materialize', 'angularTypewrite'])
 
 .config(function ($stateProvider, $urlRouterProvider) {
     /* Set home route */
@@ -18,7 +18,7 @@ angular.module('portfolio', ['ui.router', 'ui.materialize'])
         url: '/work',
         templateUrl: './views/work.html'
       })
-      
+
       .state('contact', {
         url: '/contact',
         templateUrl: './views/contact.html'
