@@ -29,10 +29,9 @@ a {
 }
 .work-right img{
   margin: 30px;
-  height: 175px;
-  width: 175px;
+  height: 150px;
+  width: 150px;
 }
-
 .caption {
   display: none;
   position: absolute;
@@ -50,3 +49,17 @@ a {
 a:hover .caption {
   display: block;
 }​
+div.icons-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.icon-wrapper h6{
+  color: #000;
+}
