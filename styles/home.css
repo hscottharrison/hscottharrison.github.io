@@ -4,7 +4,7 @@
   font-family: 'Roboto Slab', serif;
 }
 main{
-  background: url('../images/home.jpg') center center no-repeat fixed;
+  background: url('https://s3.us-east-2.amazonaws.com/portfoliohunter/home.jpg') center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
