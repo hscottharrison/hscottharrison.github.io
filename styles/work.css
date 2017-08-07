@@ -12,6 +12,9 @@ a {
 .row h3{
   color: #000;
 }
+.growing-list{
+  color: #000
+}
 .work-container{
   display: flex;
   flex-direction: column;
@@ -21,6 +24,17 @@ a {
 .project{
   display: inline-block;
   text-align: center;
+}
+.project-links{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.project-links a{
+  color: #607d8b;
+}
+.project-links a:hover{
+  text-decoration: underline;
 }
 .project-wrapper{
   display: flex;
@@ -41,10 +55,10 @@ a {
   background-color: #333; /* for browsers that don't understand rgba() notation */
   background-color: rgba(0,0,0,0.6);
   color: #fff;
-  font-weight: bold;
   line-height: 1.1em;
-  height: 100%;
+  height: 200px;
   letter-spacing: 1px;
+  padding: 10px;
 }
 a:hover .caption {
   display: block;
