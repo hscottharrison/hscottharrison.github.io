@@ -3,6 +3,9 @@ a {
   position: relative;
   text-align: center;
 }
+.work-left{
+  margin-top: 70px;
+}
 .work-container{
   width: 100%;
 }
