@@ -44,6 +44,10 @@ a {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.freelance-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
 .work-right img{
   margin: 30px;
   height: 150px;
