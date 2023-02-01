@@ -1899,6 +1899,11 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -2228,7 +2233,12 @@ video {
 .hero {
   -webkit-clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 90%);
           clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 90%);
-  background: url(../img/tetons2.png) no-repeat center center;
+  background: rgb(44,76,59);
+  background: linear-gradient(90deg, rgba(44,76,59,1) 35%, rgba(48,104,68,1) 100%);
+}
+
+.inner-hero {
+  background: rgba(0, 0, 0, 0, 0.5)
 }
 
 .hover\:font-bold:hover {

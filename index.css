@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 .hero {
-    clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 90%);
-    background: url(../img/tetons2.png) no-repeat center center;
+  clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 90%);
+  background: rgb(44,76,59);
+  background: linear-gradient(90deg, rgba(44,76,59,1) 35%, rgba(48,104,68,1) 100%);
+}
+
+.inner-hero {
+  background: rgba(0, 0, 0, 0, 0.5)
 }
