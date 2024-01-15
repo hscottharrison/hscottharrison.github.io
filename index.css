@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.hero {
-    clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 90%);
-    background: url(../img/tetons2.png) no-repeat center center;
-}
