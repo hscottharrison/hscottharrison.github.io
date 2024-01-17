@@ -19,11 +19,16 @@
   flex: 3;
 }
 
+.about-content-wrapper {
+  display: flex;
+}
+
 .about-content {
   /* border-top: 0.35em solid #5b8c5a; */
   height: 45%;
   color: #fff;
-  padding: 3em;
+  padding: 0 3em;
+  flex: 2;
 }
 
 .content-header {
@@ -32,4 +37,14 @@
 
 .about-paragraph {
   line-height: 2em;
+}
+
+.value-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.material-icons {
+  margin-right: 0.5em;
 }

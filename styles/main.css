@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  line-height: 1.5em;
 }
 
 body {
@@ -11,4 +12,8 @@ body {
 .page {
 	/* background-color: #e0e3dc; */
   min-height: 100vh;
+}
+
+.icon-white {
+  color: #fff;
 }
