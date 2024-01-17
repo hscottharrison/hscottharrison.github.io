@@ -5,10 +5,16 @@
 
 body {
   /* background-color: #e0e3dc; */
+  font-family: Montserrat;
+}
+
+nav {
+  margin-top: 5em;
+  margin-bottom: 4em;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   margin: 1em 0;
@@ -24,32 +30,20 @@ body {
 
 .nav-item {
   margin: 0em 1em;
-  font-size: 16px;
+  font-size: 20px;
   padding: 0.5em;
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
+  color: #000;
 }
 
 .nav-item:hover {
-  background-color: #e0e3dc;
+  background-color: #e5e5e5;
   opacity: 0.5;
 }
 
 .active {
-  background-color: #D52349;
+  background-color: #30981c;
   color: #fff;
-}
-
-.active:hover {
-  background-color: #D52349;
-  color: #fff;
-}
-
-.hero {
-  margin: 3em 0 0 0;
-  background: url('images/green-puzzle.jpg');
-  background-position: center center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
 }
