@@ -1,0 +1,35 @@
+#about {
+  background-color: #52414c;
+}
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55%;
+  padding: 1em 0;
+}
+
+.about-image {
+  height: 90%;
+}
+
+.about-vector {
+  height: 0.35em;
+  background: #5b8c5a;
+  flex: 3;
+}
+
+.about-content {
+  /* border-top: 0.35em solid #5b8c5a; */
+  height: 45%;
+  color: #fff;
+  padding: 3em;
+}
+
+.content-header {
+  margin-bottom: 1em;
+}
+
+.about-paragraph {
+  line-height: 2em;
+}

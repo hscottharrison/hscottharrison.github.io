@@ -6,7 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 499px;
-  width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -15,7 +14,7 @@
 .banner {
 	height: 50%;
 	width: 50%;
-	background-color: #e0e3dc;
+	background-color: #cfd186;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
