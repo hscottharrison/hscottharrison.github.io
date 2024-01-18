@@ -1,18 +1,17 @@
-
-.hero {
-  margin: 2em 0 0 0;
-  background: url('../images/green-puzzle.jpg');
+#home {
+  background-color: #e0e3dc;
+  background: url('../images/home.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 499px;
+  height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .banner {
-	height: 50%;
+	height: 30%;
 	width: 50%;
 	background-color: #cfd186;
 	display: flex;
@@ -20,6 +19,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 	padding: 0 3em;
+	opacity: 0.9;
 }
 
 .banner-title {

@@ -1,0 +1,63 @@
+#services {
+  border-top: 0.35em solid #e3655b;
+  background-color: #e0e3dc;
+}
+.services-header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.services-header {
+  color: #e3655b;
+}
+
+.services-card-wrapper {
+  min-height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3em;
+  padding: 0 8em 2em 8em;
+}
+
+.services-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border-bottom: 1px solid #cfd186;
+}
+
+.services-card-content {
+  padding: 1em;
+}
+
+.services-card-content h1 {
+  margin-bottom: 1em;
+}
+
+.services-card-image {
+  height: 40%;
+  width: 100%;
+}
+
+#web-dev-image {
+  background: url("../images/web-development.jpg");
+  background-size: cover;
+}
+
+#project-management-image {
+  background: url("../images/project-management.jpg") center;
+  background-size: cover;
+}
+
+#maintenance-image {
+  background: url("../images/maintenance.jpg") center;
+  background-size: cover;
+}
+
+#testing-image {
+  background: url("../images/testing.jpg") center;
+  background-size: cover;
+}
+
