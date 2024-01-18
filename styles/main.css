@@ -16,6 +16,7 @@ body {
 .page {
 	/* background-color: #e0e3dc; */
   min-height: 100vh;
+  border-bottom: 0.35em solid #e3655b;
 }
 
 .icon-white {
