@@ -19,6 +19,9 @@ body {
   border-bottom: 0.35em solid #e3655b;
 }
 
-.icon-white {
-  color: #fff;
+.page-header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
 }

@@ -31,3 +31,9 @@
 	color:#0A3D0B;
 	padding-top: 1.5em;
 }
+
+@media screen and (max-width: 900px) {
+	.banner {
+    width: 100%;
+	}
+}

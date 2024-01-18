@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hscottharrison/hscottharrison.github.io#readme",
   "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
     "node": "^21.2.0"
   }
 }

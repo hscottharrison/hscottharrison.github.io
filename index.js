@@ -24,6 +24,10 @@
     document.getElementById(idToFind).classList.add('active');
   }
 
+  function submitForm(form) {
+    debugger;
+  }
+
 
 
 
