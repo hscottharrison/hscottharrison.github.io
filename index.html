@@ -18,17 +18,31 @@
       <div class="logo">
         <h1>coda</h1>
       </div>
+	  <div onClick="toggleNavMenu()" class="nav-menu-icon">
+		<span class="material-icons">menu</span>
+	  </div>
       <div class="nav-item-list">
         <a href="#home" class="nav-item" id="nav-item-home">Home</a>
         <a href="#about" class="nav-item" id="nav-item-about">About</a>
         <a href="#services" class="nav-item" id="nav-item-services">Services</a>
         <a href="#contact" class="nav-item" id="nav-item-contact">Contact</a>
       </div>
+	  <div id="nav-menu-wrapper" class="nav-closed">
+		<div class="nav-close-icon-wrapper" onClick="toggleNavMenu()">
+			<span class="material-icons">close</span>
+		</div>
+		<div class="nav-menu-item-list">
+			<a href="#home" class="nav-item" id="nav-item-home">Home</a>
+			<a href="#about" class="nav-item" id="nav-item-about">About</a>
+			<a href="#services" class="nav-item" id="nav-item-services">Services</a>
+			<a href="#contact" class="nav-item" id="nav-item-contact">Contact</a>
+		</div>
+	  </div>
     </nav>
     <main>
       <section id="home" class="page">
         <div class="banner">
-          <h1 class="banner-title">TECHNOLOGY CONSULTING</h1>
+          <h1 class="banner-title">TECHNOLOGY CONSULTING. THE RIGHT WAY.</h1>
           <p class="banner-text">coda (/ˈkōdə/) - the concluding passage of a piece or movement, typically forming an addition to the basic structure</p>
           <p class="banner-text">At Coda Development, we aim to be that essential, missing piece to your technology needs</p>
         </div>
@@ -43,7 +57,7 @@
           <div class="about-content">
             <h1 class="content-header">About Us</h1>
             <p class="about-paragraph">
-              Hello and Welcome! My name is Hunter Harrison, and that guy there next to me is Coda. I am the owner and lead consultant here at Coda Development.
+              Hello and Welcome! My name is Hunter Harrison, and that guy there next to me is Coda. I am the owner, lead consultant and head business man here at Coda Development.
               I have over 6 years of experience in software engineering and over 5 years of experience in technology consulitng. I am a client obsessed empathetic leader who
               relishes a good problem to solve. I strive to work with my clients to develop a solution that is right with them. My experience has placed me building applications
               for a Big accounting firm with hundreds of thousands of users to building in-house software for mom and pop businesses. I truly believe that there is no problem too 
@@ -67,7 +81,7 @@
             <div class="value-wrapper">
               <span class="material-icons">handshake</span>
               <p>
-                <strong>Honesty</strong> - The Truth is Love. Plain and simple.
+                <strong>Honesty -</strong> The Truth is Love. Plain and simple.
               </p>
             </div>
           </div>
@@ -75,38 +89,11 @@
       </section>
       <section id="services" class="page">
         <div class="page-header-wrapper">
-          <h2 class="services-header">Our Services</h2>
+          <h2 class="services-header">What we do</h2>
         </div>
-        <div class="services-card-wrapper">
-          <div class="services-card">
-            <div class="services-card-image" id="web-dev-image"></div>
-            <div class="services-card-content">
-              <h3>Full Stack Web Development</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas incidunt doloremque dignissimos eum provident suscipit dolor, optio itaque ipsam quia voluptates distinctio saepe, magni quibusdam vero iste. Sed, omnis.</p>
-            </div>
-          </div>
-          <div class="services-card">
-            <div class="services-card-image" id="project-management-image"></div>
-            <div class="services-card-content">
-              <h3>Project Management</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas incidunt doloremque dignissimos eum provident suscipit dolor, optio itaque ipsam quia voluptates distinctio saepe, magni quibusdam vero iste. Sed, omnis.</p>
-            </div>
-          </div>
-          <div class="services-card">
-            <div class="services-card-image" id="maintenance-image"></div>
-            <div class="services-card-content">
-              <h3>Maintenance/Bug Squashing</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas incidunt doloremque dignissimos eum provident suscipit dolor, optio itaque ipsam quia voluptates distinctio saepe, magni quibusdam vero iste. Sed, omnis.</p>
-            </div>
-          </div>
-          <div class="services-card">
-            <div class="services-card-image" id="testing-image"></div>
-            <div class="services-card-content">
-              <h3>Testing</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas incidunt doloremque dignissimos eum provident suscipit dolor, optio itaque ipsam quia voluptates distinctio saepe, magni quibusdam vero iste. Sed, omnis.</p>
-            </div>
-          </div>
-        </div>
+        <div class="services-content">
+          <h3 class="services-tag-line">Technology consulting is the name of our game</h3>
+        </div>  
       </section>
       <section id="contact" class="page">
         <div class="page-header-wrapper">

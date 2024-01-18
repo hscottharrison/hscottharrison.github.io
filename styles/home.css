@@ -11,12 +11,12 @@
 }
 
 .banner {
-	height: 30%;
-	width: 50%;
-	background-color: #cfd186;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(82, 66, 76, 0.5);
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	flex-direction: column;
 	padding: 0 3em;
 	opacity: 0.9;
@@ -24,11 +24,11 @@
 
 .banner-title {
 	font-size: 30px;
-	color:#0A3D0B
+	color:#fff
 }
 
 .banner-text {
-	color:#0A3D0B;
+	color:#fff;
 	padding-top: 1.5em;
 }
 

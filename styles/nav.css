@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-item:hover {
-  background-color: #cfd186;
+  background-color: #E3655b;
   opacity: 0.5;
   color: #fff;
 }
@@ -45,4 +45,49 @@ nav {
 .active {
   background-color: #E3655b;
   color: #fff;
+}
+
+.nav-menu-icon {
+  display: none;
+}
+
+.nav-closed{
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    justify-content: space-between;
+    padding: 0 2em;
+  }
+
+  .nav-item-list {
+    display: none;
+  }
+
+  .nav-menu-icon {
+    display: block;
+  }
+
+  .nav-open {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    z-index: 99999999999;
+    background-color: #52414c;
+    height: 100vh;
+    width: 50%;
+    top: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+  .nav-menu-item-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-close-icon-wrapper {
+    padding: 1em;
+  }
 }

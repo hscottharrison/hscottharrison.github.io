@@ -28,6 +28,15 @@
     debugger;
   }
 
+  function toggleNavMenu() {
+    const menu = document.getElementById('nav-menu-wrapper');
+    if (menu.classList.contains('nav-open')) {
+      menu.classList.remove('nav-open');
+    } else {
+      menu.classList.add('nav-open');
+    }
+  }
+
 
 
 

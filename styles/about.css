@@ -51,10 +51,6 @@
 }
 
 @media screen and (max-width: 900px) {
-	.about-image {
-    height: 100%;
-	}
-
   .about-content-wrapper {
     flex-direction: column;
   }
