@@ -14,7 +14,6 @@
 
 .services-content {
   display: flex;
-  align-items: center;
 }
 
 .services-content-section {
@@ -30,6 +29,12 @@
 
 .services-list-item::marker {
   color:#E3655b
+}
+
+.service-offering-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
 }
 
 @media screen and (max-width: 500px) {
