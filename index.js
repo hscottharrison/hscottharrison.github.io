@@ -25,14 +25,20 @@
     document.getElementById(idToFind).classList.add('active');
   }
 
-  function submitForm(event, form) {
-    event?.preventDefault();
-    const name = document.getElementById('contact-form-name').value;
-    const email = document.getElementById('contact-form-email').value;
-    const phone = document.getElementById('contact-form-phone').value;
-    const message = document.getElementById('contact-form-message').value;
-    
-    const obj = {name, email, phone, message};
+  async function submitForm(event) {
+    event.preventDefault();
+    const formData = new FormData(form);
+    const urlEncoded = new URLSearchParams(formData).toString();
+
+    const params = {
+      headers: {
+        "content-type": "application/x-www-form-urlencoded",
+      },
+      body: urlEncoded,
+      method: "POST"
+    };
+    const response = await fetch('http://localhost:3000/mailer', params)
+    console.log(response);
   }
 
   function toggleNavMenu() {
@@ -52,6 +58,6 @@
     navItems[i].addEventListener('click', addActiveClassToNavItem);
   }
   
-  // form.addEventListener('submit', submitForm);
+  form.addEventListener('submit', submitForm);
 
 
