@@ -135,29 +135,64 @@
       <section id="contact" class="page">
         <div class="page-header-wrapper">
           <h2 class="contact-header">Let's Work Together</h2>
+          <h3 class="services-tag-line">COMMUNICATION IS KEY TO EVERYTHING WE DO</h3>
         </div>
-		<div class="contact-form-wrapper">
-			<form id="contact-form">
-			<div class="form-row form-error" style="display:none;"></div>
-			<div class="form-row">
-				<label for="contact-form-name">Name:</label>
-				<input id="contact-form-name" class="form-input" type="text" name="name" required>
-			</div>
-			<div class="form-row">
-				<label for="contact-form-email">Email:</label>
-				<input id="contact-form-email" class="form-input" type="email" name="email" required>
-			</div>
-			<div class="form-row">
-				<label for="contact-form-phone">Phone:</label>
-				<input id="contact-form-phone" class="form-input" type="tel" name="phone">
-			</div>
-			<div class="form-row">
-				<label for="contact-form-message">Message:</label>
-				<textarea id="contact-form-message" class="form-input" name="message" required></textarea>
-			</div>
-			<button onClick="submitForm()">Submit</button>
-			</form>
-		</div>
+        <div class="contact-content-wrapper">
+          <div class="contact-content">
+            <p>Intersted in working with us?</p>
+            <p>
+              Our team is here to serve your needs while keeping you in the know
+              about the status of your project. Check out our contact information below
+              or fill out the form and we will be in touch with you shortly!
+            </p>
+            <div class="contact-detail-wrapper">
+              <span class="material-icons contact-detail-icon">home</span>
+              <div>
+                <h4>Mailing Address</h4>
+                <p>PO BOX 5176</p>
+                <p>Dallas, Texas 75208</p>
+              </div>
+            </div>
+            <div class="contact-detail-wrapper">
+              <span class="material-icons contact-detail-icon">mail</span>
+              <div>
+                <h4>Email Address</h4>
+                <p>hunter@codadevelopment.net</p>
+              </div>
+            </div>
+            <div class="contact-detail-wrapper">
+              <span class="material-icons contact-detail-icon">call</span>
+              <div>
+                <h4>Phone Number</h4>
+                <p>(713)-248-5039</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-content contact-form">
+            <div class="contact-form-wrapper">
+              <h1>GET IN TOUCH</h1>
+              <form id="contact-form">
+              <div class="form-row">
+                <label for="contact-form-name">Name:</label>
+                <input id="contact-form-name" class="form-input" type="text" name="name" required>
+              </div>
+              <div class="form-row">
+                <label for="contact-form-email">Email:</label>
+                <input id="contact-form-email" class="form-input" type="email" name="email" required>
+              </div>
+              <div class="form-row">
+                <label for="contact-form-phone">Phone:</label>
+                <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+              </div>
+              <div class="form-row">
+                <label for="contact-form-message">Message:</label>
+                <textarea id="contact-form-message" class="form-input text-area" name="message" required></textarea>
+              </div>
+              <button class="contact-form-button" onClick="submitForm()">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
