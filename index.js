@@ -1,6 +1,7 @@
 
   // variable declarations
   const navItems = document.getElementsByClassName('nav-item');
+  const form = document.getElementById('contact-form');
 
   // function declarations
   function addActiveClassToNavItem(event) {
@@ -24,8 +25,14 @@
     document.getElementById(idToFind).classList.add('active');
   }
 
-  function submitForm(form) {
-    debugger;
+  function submitForm(event, form) {
+    event?.preventDefault();
+    const name = document.getElementById('contact-form-name').value;
+    const email = document.getElementById('contact-form-email').value;
+    const phone = document.getElementById('contact-form-phone').value;
+    const message = document.getElementById('contact-form-message').value;
+    
+    const obj = {name, email, phone, message};
   }
 
   function toggleNavMenu() {
@@ -37,9 +44,6 @@
     }
   }
 
-
-
-
   //init
   findActiveLink();
 
@@ -47,5 +51,7 @@
   for(let i = 0; i < navItems.length; i++) {
     navItems[i].addEventListener('click', addActiveClassToNavItem);
   }
+  
+  // form.addEventListener('submit', submitForm);
 
 
