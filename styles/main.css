@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   line-height: 1.5em;
+  cursor: pointer;
 }
 
 html {

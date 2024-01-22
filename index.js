@@ -25,11 +25,30 @@
     document.getElementById(idToFind).classList.add('active');
   }
 
+  function clearFrom() {
+    const name = document.getElementById('contact-form-name');
+    const email = document.getElementById('contact-form-email');
+    const phone = document.getElementById('contact-form-phone');
+    const message = document.getElementById('contact-form-message');
+
+    name.value = '';
+    email.value = '';
+    phone.value = '';
+    message.value = '';
+  }
+
   async function submitForm(event) {
     event.preventDefault();
+    // set button loading state
+    const button = document.getElementById('contact-form-button');
+    const formError = document.getElementById('form-error-message');
+    if (!formError.classList.contains('hide')) {
+      formError.classList.add('hide')
+    }
+    button.classList.add('button--loading')
+
     const formData = new FormData(form);
     const urlEncoded = new URLSearchParams(formData).toString();
-
     const params = {
       headers: {
         "content-type": "application/x-www-form-urlencoded",
@@ -38,7 +57,17 @@
       method: "POST"
     };
     const response = await fetch('http://localhost:3000/mailer', params)
-    console.log(response);
+    if (response.status === 200) {
+      button.classList.remove('button--loading');
+      button.innerHTML = 'SUCCESS!'
+      setTimeout(() => {
+        button.innerHTML = 'SUBMIT';
+      }, 3000);
+      clearFrom();
+    } else {
+      button.classList.remove('button--loading');
+      formError.classList.remove('hide');
+    }
   }
 
   function toggleNavMenu() {

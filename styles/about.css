@@ -50,6 +50,11 @@
   margin-right: 0.5em;
 }
 
+@media screen and (max-width: 600px) {
+  .about-image {
+    height: 60%;
+  }
+}
 @media screen and (max-width: 900px) {
   .about-content-wrapper {
     flex-direction: column;
