@@ -56,7 +56,7 @@
       body: urlEncoded,
       method: "POST"
     };
-    const response = await fetch('http://localhost:3000/mailer', params)
+    const response = await fetch('https://coda-development-mail-server-156774db9652.herokuapp.com/mailer', params)
     if (response.status === 200) {
       button.classList.remove('button--loading');
       button.innerHTML = 'SUCCESS!'
