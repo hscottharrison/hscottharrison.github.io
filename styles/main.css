@@ -28,6 +28,15 @@ body {
   height: 30%;
 }
 
+footer {
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #52414c;
+  color: #fff;
+}
+
 @media screen and (max-width: 900px) {
   /* .page-header-wrapper {
     height: 25%;
