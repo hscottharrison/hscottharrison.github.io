@@ -42,4 +42,7 @@ footer {
     height: 25%;
     justify-content: flex-end;
   } */
+  footer {
+    display: none;
+  }
 }
