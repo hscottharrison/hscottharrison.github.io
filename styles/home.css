@@ -4,10 +4,9 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner {
@@ -35,6 +34,15 @@
 	color:#fff;
 	font-size: 20px;
 	padding-top: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-title {
+    text-align: center;
+  }
+	.banner {
+		padding-top: 4em;
+	}
 }
 
 @media screen and (max-width: 900px) {
