@@ -21,6 +21,10 @@
 
   function findActiveLink() {
     const activeURL = window.location.href.split('#')[1];
+    // if(!activeURL) {
+    //   history.pushState('home', 'Title', '/#home');
+    //   findActiveLink();
+    // }
     const idToFind = `nav-item-${activeURL}`;
     document.getElementById(idToFind).classList.add('active');
   }
